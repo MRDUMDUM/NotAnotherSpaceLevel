@@ -16,7 +16,7 @@ public class MagnusPlayerMovement : MonoBehaviour
 
     public int jumps;
 
-    private bool isGrounded;
+    public bool isGrounded;
 
     private Rigidbody2D rigidbody2;
     //zeroG
@@ -54,10 +54,7 @@ public class MagnusPlayerMovement : MonoBehaviour
     void Update()
     {
         isGrounded = Physics2D.OverlapArea(new Vector2(transform.position.x - 0.5f, transform.position.y - 0.5f),
-          new Vector2(transform.position.x + 0.5f, transform.position.y - 0.51f), groundLayers);
-
-        if (isGrounded)
-            jumps = 0;
+          new Vector2(transform.position.x + 0.5f, transform.position.y - 0.60f), groundLayers);
 
         Jump();
         Hack();
@@ -72,6 +69,9 @@ public class MagnusPlayerMovement : MonoBehaviour
 
     void Jump()
     {
+        if (isGrounded)
+            jumps = 0;
+
         if (Input.GetButtonDown("Jump" + playerNumber.ToString()) && (jumps < jumpLevel || isGrounded) && !inZeroGZone && jumpLevel > 0)
         {
             gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
