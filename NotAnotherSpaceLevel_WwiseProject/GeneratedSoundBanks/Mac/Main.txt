@@ -1,0 +1,92 @@
+Event	ID	Name			Wwise Object Path	Notes
+	456935401	Play_Skill_ManageOpen			\Default Work Unit\Play_Skill_ManageOpen	
+	867002421	Play_MeteorHit			\Default Work Unit\Play_MeteorHit	
+	1096525642	Play_Skill_LevelDown			\Default Work Unit\Play_Skill_LevelDown	
+	1172822028	Play_Death			\Default Work Unit\Play_Death	
+	1426838595	Play_Stunned			\Default Work Unit\Play_Stunned	
+	1444205428	Play_StartGame			\Default Work Unit\Play_StartGame	
+	2044747472	Play_UI			\Default Work Unit\Play_UI	
+	2267716414	Play_Hack_Succes			\Default Work Unit\Play_Hack_Succes	
+	2295817318	Play_Goggles_Activate			\Default Work Unit\Play_Goggles_Activate	
+	2721379730	Play_DoorClose			\Default Work Unit\Play_DoorClose	
+	2855167047	Play_Goggles_DeActivate			\Default Work Unit\Play_Goggles_DeActivate	
+	2890400009	Play_Hack_Denied			\Default Work Unit\Play_Hack_Denied	
+	2932040671	Play_Music			\Default Work Unit\Play_Music	
+	3197300806	Play_DoorOpen			\Default Work Unit\Play_DoorOpen	
+	3689126666	Play_Jump			\Default Work Unit\Play_Jump	
+	4192500681	Play_Skill_LevelUp			\Default Work Unit\Play_Skill_LevelUp	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	768929368	GamePhase			\Default Work Unit\GamePhase	
+	1548586727	MenuState			\Default Work Unit\MenuState	
+	3285234865	PlayerState			\Default Work Unit\PlayerState	
+
+State	ID	Name	State Group			Notes
+	0	None	GamePhase			
+	1018478861	Menu_Tutorial	GamePhase			
+	2716678721	Victory	GamePhase			
+	3161908922	Main	GamePhase			
+	0	None	MenuState			
+	984691642	InGame	MenuState			
+	3374585465	InMenu	MenuState			
+	0	None	PlayerState			
+	655265632	Alive	PlayerState			
+	2044049779	Dead	PlayerState			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	914078883	InMenu	MenuState	\Interactive Music Hierarchy\Default Work Unit\MusicManager\Menu+TutorialMusic		
+
+Effect plug-ins	ID	Name	Type				Notes
+	1008402193	Low_Pass_20KHz	Wwise Parametric EQ			
+	1431209347	One_Tap_One_Second	Wwise Delay			
+	2180422931	One_Tap_Quarter_Second	Wwise Delay			
+	2949243095	Hall_Small_Bright	Wwise RoomVerb			
+	3487820010	One_Tap_Half_Second	Wwise Delay			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	47080099	MetalCreak	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\MetalCreak_E07AB823.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\MeteorHit\Creaks\MetalCreak		1139312
+	62939157	Hack_Denied	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\Hack_Denied_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Hacking\Hack_Denied		49916
+	65311760	Goggles_Activate	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\Goggles_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Goggles_Activate		220564
+	66056746	Hull_Hit_01	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\Hull_Hit_A5BE4E21.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\MeteorHit\Hull_Hit\Hull_Hit_01		1313876
+	79385771	Doors_1	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\Doors_1_A12BE507.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\DoorClose\Doors_1		273240
+	106757732	Intro	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\Music_Intro_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MusicManager\MainMusic\Intro\Intro		1411264
+	110789462	StartGame	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\Electric_Woosh_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\UI\StartGame		120476
+	163831784	Chill_Music	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\Chill_Music_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MusicManager\Menu+TutorialMusic\MenuTutorial\Chill_Music		9387612
+	204463098	BearSounds_02	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\BearSounds_B3EBFC1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Jumping\BearRoar\BearSounds_02		80024
+	209029818	Heavy_Impact_Dist	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\Heavy_Impact_Dist_06FB6750.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\MeteorHit\Heavy_Hit\Heavy_Impact_Dist		192696
+	233259537	Skill_LevelUp	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\AcquireSkill_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\UI\Skill_LevelUp		81140
+	263520904	Music_Part5	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\Music_Part5_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MusicManager\MainMusic\Part_05\Music_Part5		11760064
+	303203819	Doors_1	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\Doors_1_53A0AF92.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\DoorOpen\Doors_1		295288
+	306520117	BearSounds_04	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\BearSounds_426E19A9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Jumping\BearRoar\BearSounds_04		98016
+	306770994	YouWonMusic	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\YouWonMusic_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MusicManager\VictoryMusic\Survival\YouWonMusic		7620544
+	363119522	Stunned	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\Stunned_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Stunned		176464
+	381562044	UI	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\UI_2_9862C16A.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\UI\UI		9704
+	387458280	BearSounds	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\BearSounds_991B9DD9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Jumping\BearRoar\BearSounds		124892
+	387759116	DeathHit	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\DeathHit_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Death!\DeathHit		1499464
+	410426984	Music_Part4	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\Music_Part4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MusicManager\MainMusic\Part_04\Music_Part4		6585664
+	450680982	Doors_2	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\Doors_2_195D125D.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\DoorOpen\Doors_2		298964
+	456124792	Metal_Impact	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\Metal_Impact_D00C2E19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\MeteorHit\Metal_Impact		641812
+	501669268	BearSounds_05	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\BearSounds_6B5719A9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Jumping\BearRoar\BearSounds_05		73808
+	509116132	BearDead	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\BearSounds_4A6A02A6.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Death!\BearDead		452444
+	515717826	Heavy_Impact_Dist_02	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\Heavy_Impact_Dist_80A60739.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\MeteorHit\Heavy_Hit\Heavy_Impact_Dist_02		218728
+	516378856	Doors_3	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\Doors_3_719F382C.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\DoorClose\Doors_3		232812
+	548832763	Hack_Succes	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\Hacking_Succes_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Hacking\Hack_Succes		41096
+	564204432	Hull_Hit_02	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\Hull_Hit_B0B74266.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\MeteorHit\Hull_Hit\Hull_Hit_02		1345728
+	620641373	Heavy_Impact_Dist_01	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\Heavy_Impact_Dist_30E210E3.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\MeteorHit\Heavy_Hit\Heavy_Impact_Dist_01		222632
+	640913818	Skill_LevelDown	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\Skill_LevelDown_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\UI\Skill_LevelDown		22112
+	671882969	MetalCreak_01	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\MetalCreak_EAA8206A.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\MeteorHit\Creaks\MetalCreak_01		1405752
+	815399842	MetalCreak_03	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\MetalCreak_BA2C8A3F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\MeteorHit\Creaks\MetalCreak_03		1387376
+	861047025	Skill_ManageOpen	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\OpenSkills_3D5B7243.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\UI\Skill_ManageOpen		70676
+	880433878	Hull_Hit	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\Hull_Hit_60FD2F7C.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\MeteorHit\Hull_Hit\Hull_Hit		1282028
+	913329014	Goggles_DeActivate	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\Goggles_8C7D2D51.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Goggles_DeActivate		27244
+	914601873	MetalCreak_02	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\MetalCreak_65261A21.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\MeteorHit\Creaks\MetalCreak_02		891252
+	924386258	Jump	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\Jump_41CC74DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Jumping\Jump		99288
+	926329877	Music_Part3	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\Music_Part3_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MusicManager\MainMusic\Part_03\Music_Part3		6350464
+	938252191	BearSounds_03	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\BearSounds_8727E4CA.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Jumping\BearRoar\BearSounds_03		84984
+	959076171	Doors_2	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\Doors_2_BDA7AA1C.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\DoorClose\Doors_2		224240
+	972219134	YouDied	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\YouDiedMusic_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MusicManager\DeathMusic\DeathByToxicGas\YouDied		491584
+	1002360659	Music_Part2	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\Music_Part2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MusicManager\MainMusic\Part_02\Music_Part2		11524864
+	1016493268	Music_Part1	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\Music_Part1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MusicManager\MainMusic\Part_01\Music_Part1		10819264
+	1061452356	Doors_3	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\Doors_3_2A276314.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\DoorOpen\Doors_3		305088
+	1066848774	BearSounds_01	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\BearSounds_9AEF8868.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Jumping\BearRoar\BearSounds_01		96952
+
