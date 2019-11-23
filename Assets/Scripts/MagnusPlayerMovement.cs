@@ -10,6 +10,12 @@ public class MagnusPlayerMovement : MonoBehaviour
     public LayerMask groundLayers;
     public int playerNumber;
 
+    public int jumpLevel = 0;
+    public int goggleLevel = 0;
+    public int hackingLevel = 0;
+
+    public int jumps;
+
     private bool isGrounded;
 
     // Start is called before the first frame update
@@ -27,13 +33,17 @@ public class MagnusPlayerMovement : MonoBehaviour
         Jump();
         transform.Translate(movementSpeed * Input.GetAxis("Horizontal" + playerNumber.ToString()) * Time.deltaTime, 0f, 0f);
         transform.rotation = Quaternion.Slerp(transform.rotation, initialTransform.rotation, 0.0f);
+
+        if (isGrounded)
+            jumps = 0;
     }
 
     void Jump()
     {
-        if (Input.GetButtonDown("Jump" + playerNumber.ToString()) && isGrounded)
+        if (Input.GetButtonDown("Jump" + playerNumber.ToString()) && (isGrounded || jumps < jumpLevel))
         {
             gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
+            jumps++;
         }
     }
 }
