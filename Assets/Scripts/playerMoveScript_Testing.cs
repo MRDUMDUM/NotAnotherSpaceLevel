@@ -54,7 +54,7 @@ public class playerMoveScript_Testing : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Hallo?");
+        
         if(other.gameObject.tag == "ZeroG")
         {
             inZeroGZone = true;

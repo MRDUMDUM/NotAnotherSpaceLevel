@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RotateMap : MonoBehaviour
 {
-    public float waitTime = 2f;
+    public float waitTime = 1f;
     public float smooth = 1f;
 
     private Vector3 targetAngles;
@@ -14,7 +14,7 @@ public class RotateMap : MonoBehaviour
     public GameObject player;
 
      
-    private IEnumerator RotateWaitTime;
+   
 
     // Start is called before the first frame update
     void Start()
@@ -30,8 +30,9 @@ public class RotateMap : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 targetAngles = transform.eulerAngles + 180f * Vector3.forward;
-                player.GetComponent<Rigidbody2D>().isKinematic = false;
+                player.GetComponent<Rigidbody2D>().simulated = false;
                 player.GetComponent<playerMoveScript_Testing>().enabled = false;
+                StartCoroutine(RotateWaitTime());
                 rotated = true;
             }
 
@@ -41,7 +42,9 @@ public class RotateMap : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 targetAngles = transform.eulerAngles - 180f * Vector3.forward;
-                
+                player.GetComponent<Rigidbody2D>().simulated = false;
+                player.GetComponent<playerMoveScript_Testing>().enabled = false;
+                StartCoroutine(RotateWaitTime());
                 rotated = false;
             }
                 
@@ -50,9 +53,10 @@ public class RotateMap : MonoBehaviour
         transform.eulerAngles = Vector3.Lerp(transform.eulerAngles, targetAngles, smooth * Time.deltaTime);
     }
 
-    private IEnumerator wRotateWaitTime(float waitTime)
+    private IEnumerator RotateWaitTime()
     {
-        yield return new WaitForSeconds(waitTime);
-
+        yield return new WaitForSeconds(1.5f);
+        player.GetComponent<Rigidbody2D>().simulated = true;
+        player.GetComponent<playerMoveScript_Testing>().enabled = true;
     }
 }
