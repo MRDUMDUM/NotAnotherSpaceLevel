@@ -42,6 +42,11 @@ public class MagnusPlayerMovement : MonoBehaviour
     public int HackingLevel = 0;
     public float hacktimer = 2f;
 
+    public bool r1Pressed;
+    public bool downPressed;
+    public bool rightPressed;
+
+
     // Start is called before the first frame update
     void Start()
     {
