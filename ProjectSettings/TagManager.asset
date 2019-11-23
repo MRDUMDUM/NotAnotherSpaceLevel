@@ -4,7 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - Death
   - Hack
+  - ZeroG
   layers:
   - Default
   - TransparentFX
