@@ -40,7 +40,7 @@ public class MagnusPlayerMovement : MonoBehaviour
 
     void Jump()
     {
-        if (Input.GetButtonDown("Jump" + playerNumber.ToString()) && (isGrounded || jumps < jumpLevel))
+        if (Input.GetButtonDown("Jump" + playerNumber.ToString()) && (isGrounded || jumps < jumpLevel) && jumpLevel > 0)
         {
             gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
             jumps++;
