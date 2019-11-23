@@ -30,6 +30,8 @@ public class MagnusPlayerMovement : MonoBehaviour
     private float origAngulerDrag = 0f;
     public float zeroGravityAngulerDrag = 0f;
 
+    public float groundOffset;
+
     // trigger tags
 
     public string zeroGTag = "";
@@ -54,7 +56,7 @@ public class MagnusPlayerMovement : MonoBehaviour
     void Update()
     {
         isGrounded = Physics2D.OverlapArea(new Vector2(transform.position.x - 0.5f, transform.position.y - 0.5f),
-          new Vector2(transform.position.x + 0.5f, transform.position.y - 0.60f), groundLayers);
+          new Vector2(transform.position.x + 0.5f, transform.position.y - 0.60f + groundOffset), groundLayers);
 
         Jump();
         Hack();
