@@ -38,7 +38,7 @@ public class playerMoveScript_Testing : MonoBehaviour
         rigidbody2.AddForce(new Vector2(h, v));
         
     }
-    private void Update()
+    private void LateUpdate()
     {
         moveforce = inZeroGZone ? zeroGMoveForce : normalMoveForce;
         rigidbody2.gravityScale = inZeroGZone ? 0f : origGravityScale;

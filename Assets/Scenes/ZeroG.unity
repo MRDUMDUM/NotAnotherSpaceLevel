@@ -601,5 +601,20 @@ PrefabInstance:
       propertyPath: inZeroGZone
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 865414222766351916, guid: 2fd7400f19c87794ebe309bb31292b02,
+        type: 3}
+      propertyPath: zeroGravityLinearDrag
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 865414222766351916, guid: 2fd7400f19c87794ebe309bb31292b02,
+        type: 3}
+      propertyPath: zeroGravityAngulerDrag
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 865414222766351916, guid: 2fd7400f19c87794ebe309bb31292b02,
+        type: 3}
+      propertyPath: hackingTag
+      value: Hack
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2fd7400f19c87794ebe309bb31292b02, type: 3}
