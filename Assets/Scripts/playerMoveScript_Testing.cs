@@ -38,7 +38,7 @@ public class playerMoveScript_Testing : MonoBehaviour
         rigidbody2.AddForce(new Vector2(h, v));
         
     }
-    private void Update()
+    private void LateUpdate()
     {
         moveforce = inZeroGZone ? zeroGMoveForce : normalMoveForce;
         rigidbody2.gravityScale = inZeroGZone ? 0f : origGravityScale;
@@ -54,7 +54,7 @@ public class playerMoveScript_Testing : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Hallo?");
+        
         if(other.gameObject.tag == "ZeroG")
         {
             inZeroGZone = true;
