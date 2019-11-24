@@ -26,7 +26,7 @@ public class MoveCloud : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            other.gameObject.Destroy();
+            Destroy(other.gameObject);
         }
     }
 }

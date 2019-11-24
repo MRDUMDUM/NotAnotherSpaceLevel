@@ -8,13 +8,13 @@ public class doorOpen : MonoBehaviour {
     public Transform door_1;
     public Transform door_2;
     float door_1_orig_pos;
-    float prev_player_pos_x;
-    bool isLocked = false;
+    public GameObject Player;
+    public bool isLocked = false;
 
     // Use this for initialization
     void Start () {
         door_1_orig_pos = door_1.transform.position.y;
-        prev_player_pos_x = transform.position.x;
+        
     }
 
     // Update is called once per frame
@@ -27,12 +27,11 @@ public class doorOpen : MonoBehaviour {
         //transform.position += tempVect;
 
         // Move the door
-        float distance = Vector3.Distance(transform.position, door_1.transform.position);
+        float distance = Vector3.Distance(Player.transform.position, door_1.transform.position);
 
         if (!isLocked)
         {
-            if (!prev_player_pos_x.Equals(transform.position.x))
-            {
+            
                 if (distance < 2.5f)
                 {
                     Vector3 up = new Vector3(0, 0.1f, 0);
@@ -45,9 +44,7 @@ public class doorOpen : MonoBehaviour {
                     door_1.transform.position -= down;
                     door_2.transform.position += down;
                 }
-            }
-
-            prev_player_pos_x = transform.position.x;
+            
         }
     }
 }
