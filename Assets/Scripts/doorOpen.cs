@@ -21,10 +21,10 @@ public class doorOpen : MonoBehaviour {
     void Update () {
 
         // Move the Player
-        float h = Input.GetAxis("Horizontal");
-        Vector3 tempVect = new Vector3(h, 0, 0);
-        tempVect = tempVect * speed * Time.deltaTime;
-        transform.position += tempVect;
+        //float h = Input.GetAxis("Horizontal");
+        //Vector3 tempVect = new Vector3(h, 0, 0);
+        //tempVect = tempVect * speed * Time.deltaTime;
+        //transform.position += tempVect;
 
         // Move the door
         float distance = Vector3.Distance(transform.position, door_1.transform.position);
