@@ -25,6 +25,7 @@
 				<Event Id="1172822028" Name="Play_Death" ObjectPath="\Events\Events\Play_Death" DurationType="OneShot" DurationMin="6.367805" DurationMax="6.367805"/>
 				<Event Id="2721379730" Name="Play_DoorClose" ObjectPath="\Events\Events\Play_DoorClose" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="1.362843" DurationMax="1.565397"/>
 				<Event Id="3197300806" Name="Play_DoorOpen" ObjectPath="\Events\Events\Play_DoorOpen" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="1.241402" DurationMax="1.694060"/>
+				<Event Id="2456639128" Name="Play_EscapePod" ObjectPath="\Events\Events\Play_EscapePod" DurationType="OneShot" DurationMin="3.830413" DurationMax="4.177095"/>
 				<Event Id="488168703" Name="Play_EscapeVoice" ObjectPath="\Events\Events\Play_EscapeVoice" DurationType="OneShot" DurationMin="2.686511" DurationMax="2.686511"/>
 				<Event Id="2295817318" Name="Play_Goggles_Activate" ObjectPath="\Events\Events\Play_Goggles_Activate" DurationType="OneShot" DurationMin="1.195747" DurationMax="1.195747"/>
 				<Event Id="2855167047" Name="Play_Goggles_DeActivate" ObjectPath="\Events\Events\Play_Goggles_DeActivate" DurationType="OneShot" DurationMin="0.199878" DurationMax="0.199878"/>
@@ -76,6 +77,10 @@
 				<File Id="112574700" Language="SFX">
 					<ShortName>YouWonMusic.wav</ShortName>
 					<Path>SFX/YouWonMusic_9B96ECC7.wem</Path>
+				</File>
+				<File Id="122559405" Language="SFX">
+					<ShortName>Jump.wav</ShortName>
+					<Path>SFX/Jump_D357A3A1.wem</Path>
 				</File>
 				<File Id="137771650" Language="SFX">
 					<ShortName>ProceedtoEscapePod.wav</ShortName>

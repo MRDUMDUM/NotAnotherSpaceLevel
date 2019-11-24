@@ -12,6 +12,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2100760483	Play_DangerToxicGas			\Events\Play_DangerToxicGas	
 	2267716414	Play_Hack_Succes			\Events\Play_Hack_Succes	
 	2295817318	Play_Goggles_Activate			\Events\Play_Goggles_Activate	
+	2456639128	Play_EscapePod			\Events\Play_EscapePod	
 	2721379730	Play_DoorClose			\Events\Play_DoorClose	
 	2855167047	Play_Goggles_DeActivate			\Events\Play_Goggles_DeActivate	
 	2868217562	Play_ProceedVoice			\Events\Play_ProceedVoice	
@@ -49,6 +50,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	41057192	Music_Part5	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\Music_Part5_9B96ECC7.wem		\Interactive Music Hierarchy\Music\MusicManager\MainMusic\Part_05\Music_Part5		972905
 	83888322	AcquireSkill	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\AcquireSkill_6296B0F9.wem		\Actor-Mixer Hierarchy\SFX\All\UI\AcquireSkill		7049
 	112574700	YouWonMusic	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\YouWonMusic_9B96ECC7.wem		\Interactive Music Hierarchy\Music\MusicManager\VictoryMusic\VictoryMusic\YouWonMusic		652482
+	122559405	ShuttleBlast	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\Jump_D357A3A1.wem		\Actor-Mixer Hierarchy\SFX\All\ShuttleBlast		52044
 	137771650	ProceedtoEscapePod	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\ProceedtoEscapePod_E008F555.wem		\Actor-Mixer Hierarchy\VoiceLines\Voices\ProceedtoEscapePod		26330
 	158002075	BearSounds_04	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\BearSounds_FFC4123D.wem		\Actor-Mixer Hierarchy\SFX\All\Jump\JumpBlend\Bear\BearSounds_04		6020
 	165007158	Heavy_Impact_Dist	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Mac\SFX\Heavy_Impact_Dist_C74F7615.wem		\Actor-Mixer Hierarchy\SFX\All\MeteorHit\MeteorHit\HeavyHit\Heavy_Impact_Dist		14316

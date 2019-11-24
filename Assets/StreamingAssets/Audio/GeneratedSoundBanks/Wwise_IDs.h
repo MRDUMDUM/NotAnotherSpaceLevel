@@ -17,6 +17,7 @@ namespace AK
         static const AkUniqueID PLAY_DEATH = 1172822028U;
         static const AkUniqueID PLAY_DOORCLOSE = 2721379730U;
         static const AkUniqueID PLAY_DOOROPEN = 3197300806U;
+        static const AkUniqueID PLAY_ESCAPEPOD = 2456639128U;
         static const AkUniqueID PLAY_ESCAPEVOICE = 488168703U;
         static const AkUniqueID PLAY_GOGGLES_ACTIVATE = 2295817318U;
         static const AkUniqueID PLAY_GOGGLES_DEACTIVATE = 2855167047U;
