@@ -10,13 +10,16 @@ public class MagnusPlayerMovement : MonoBehaviour
     public LayerMask groundLayers;
     public int playerNumber;
 
+    public bool stunned;
+    public float stunTimer;
+
     public int jumpLevel = 0;
     public int goggleLevel = 0;
     public int hackingLevel = 0;
 
     public int jumps;
 
-    private bool isGrounded;
+    public bool isGrounded;
 
     private Rigidbody2D rigidbody2;
     //zeroG
@@ -30,6 +33,8 @@ public class MagnusPlayerMovement : MonoBehaviour
     private float origAngulerDrag = 0f;
     public float zeroGravityAngulerDrag = 0f;
 
+    public float groundOffset;
+
     // trigger tags
 
     public string zeroGTag = "";
@@ -40,6 +45,11 @@ public class MagnusPlayerMovement : MonoBehaviour
     public int HackingLevel = 0;
     public float hacktimer = 2f;
 
+    public bool r1Pressed;
+    public bool downPressed;
+    public bool rightPressed;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -48,28 +58,38 @@ public class MagnusPlayerMovement : MonoBehaviour
         origLinearDrag = rigidbody2.drag;
         origAngulerDrag = rigidbody2.angularDrag;
         initialTransform = transform;
+        stunned = false;
     }
 
     // Update is called once per frame
     void Update()
     {
         isGrounded = Physics2D.OverlapArea(new Vector2(transform.position.x - 0.5f, transform.position.y - 0.5f),
-          new Vector2(transform.position.x + 0.5f, transform.position.y - 0.51f), groundLayers);
+          new Vector2(transform.position.x + 0.5f, transform.position.y - 0.60f + groundOffset), groundLayers);
 
-        Jump();
-        Hack();
+        if (!stunned)
+        {
+            Jump();
+            Hack();
 
-        float h = Input.GetAxisRaw("Horizontal" + playerNumber.ToString()) * movementSpeed;
-        float v = inZeroGZone ? Input.GetAxisRaw("Vertical" + playerNumber.ToString()) * movementSpeed : 0f;
+            float h = Input.GetAxisRaw("Horizontal" + playerNumber.ToString()) * movementSpeed;
+            float v = inZeroGZone ? Input.GetAxisRaw("Vertical" + playerNumber.ToString()) * movementSpeed : 0f;
 
-        rigidbody2.AddForce(new Vector2(h, v));
+            rigidbody2.AddForce(new Vector2(h, v));
+        }
         //transform.Translate(movementSpeed * Input.GetAxis("Horizontal" + playerNumber.ToString()) * Time.deltaTime, 0f, 0f);
         //transform.rotation = Quaternion.Slerp(transform.rotation, initialTransform.rotation, 0.0f);
+        stunTimer = max(stunTimer - Time.deltaTime, 0);
+        if (stunTimer == 0)
+            stunned = false;
     }
 
     void Jump()
     {
-        if (Input.GetButtonDown("Jump" + playerNumber.ToString()) && isGrounded && !inZeroGZone)
+        if (isGrounded)
+            jumps = 0;
+
+        if (Input.GetButtonDown("Jump" + playerNumber.ToString()) && (jumps < jumpLevel || isGrounded) && !inZeroGZone && jumpLevel > 0)
         {
             gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
             jumps++;
@@ -102,7 +122,12 @@ public class MagnusPlayerMovement : MonoBehaviour
         {
             canHack = true;
         }
-
+        if (other.gameObject.tag == "Heat")
+        {
+            stunned = true;
+            stunTimer = 5f;
+            gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.left * 10, ForceMode2D.Impulse);
+        }
     }
     private void OnTriggerStay2D(Collider2D collision)
     {
@@ -120,5 +145,15 @@ public class MagnusPlayerMovement : MonoBehaviour
         {
             canHack = false;
         }
+
+        
+    }
+
+    private float max(float a, float b)
+    {
+        if (a >= b)
+            return a;
+        else
+            return b;
     }
 }
