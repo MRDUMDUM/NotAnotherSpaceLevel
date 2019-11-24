@@ -1,0 +1,97 @@
+Event	ID	Name			Wwise Object Path	Notes
+	5356008	Play_GravityAct			\Events\Play_GravityAct	
+	456935401	Play_Skill_ManageOpen			\Events\Play_Skill_ManageOpen	
+	488168703	Play_EscapeVoice			\Events\Play_EscapeVoice	
+	561502880	Play_MeteorVoice			\Events\Play_MeteorVoice	
+	867002421	Play_MeteorHit			\Events\Play_MeteorHit	
+	1096525642	Play_Skill_LevelDown			\Events\Play_Skill_LevelDown	
+	1172822028	Play_Death			\Events\Play_Death	
+	1426838595	Play_Stunned			\Events\Play_Stunned	
+	1444205428	Play_StartGame			\Events\Play_StartGame	
+	2044747472	Play_UI			\Events\Play_UI	
+	2100760483	Play_DangerToxicGas			\Events\Play_DangerToxicGas	
+	2267716414	Play_Hack_Succes			\Events\Play_Hack_Succes	
+	2295817318	Play_Goggles_Activate			\Events\Play_Goggles_Activate	
+	2456639128	Play_EscapePod			\Events\Play_EscapePod	
+	2721379730	Play_DoorClose			\Events\Play_DoorClose	
+	2855167047	Play_Goggles_DeActivate			\Events\Play_Goggles_DeActivate	
+	2868217562	Play_ProceedVoice			\Events\Play_ProceedVoice	
+	2890400009	Play_Hack_Denied			\Events\Play_Hack_Denied	
+	2932040671	Play_Music			\Events\Play_Music	
+	3197300806	Play_DoorOpen			\Events\Play_DoorOpen	
+	3689126666	Play_Jump			\Events\Play_Jump	
+	4192500681	Play_Skill_LevelUp			\Events\Play_Skill_LevelUp	
+	4265929456	Play_GravityDis			\Events\Play_GravityDis	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	768929368	GamePhase			\Default Work Unit\GamePhase	
+	3285234865	PlayerState			\Default Work Unit\PlayerState	
+
+State	ID	Name	State Group			Notes
+	0	None	GamePhase			
+	1018478861	Menu_Tutorial	GamePhase			
+	2716678721	Victory	GamePhase			
+	3161908922	Main	GamePhase			
+	0	None	PlayerState			
+	655265632	Alive	PlayerState			
+	2044049779	Dead	PlayerState			
+
+Effect plug-ins	ID	Name	Type				Notes
+	1443902288	_1_Second_Delay	Wwise Stereo Delay			
+	2648499661	Hall_Medium_Dark	Wwise RoomVerb			
+	2662085913	Large_Church1	Wwise Matrix Reverb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	5751555	DangerToxicGas	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\DangerToxicGas_79806F73.wem		\Actor-Mixer Hierarchy\VoiceLines\Voices\DangerToxicGas		28707
+	14273555	Music_Part4	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\Music_Part4_9B96ECC7.wem		\Interactive Music Hierarchy\Music\MusicManager\MainMusic\Part_04\Music_Part4		584679
+	16550735	ProceedtoTerminal	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\ProceedtoTerminal_A8BE4983.wem		\Actor-Mixer Hierarchy\VoiceLines\Voices\ProceedtoTerminal		21356
+	17706404	StartGame	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\Electric_Woosh_6296B0F9.wem		\Actor-Mixer Hierarchy\SFX\All\UI\StartGame		16489
+	24404833	ArtGravDisabled	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\ArtGravDisabled_3977A7AE.wem		\Actor-Mixer Hierarchy\VoiceLines\Voices\ArtGravDisabled		26235
+	41057192	Music_Part5	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\Music_Part5_9B96ECC7.wem		\Interactive Music Hierarchy\Music\MusicManager\MainMusic\Part_05\Music_Part5		972905
+	83888322	AcquireSkill	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\AcquireSkill_6296B0F9.wem		\Actor-Mixer Hierarchy\SFX\All\UI\AcquireSkill		7049
+	112574700	YouWonMusic	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\YouWonMusic_9B96ECC7.wem		\Interactive Music Hierarchy\Music\MusicManager\VictoryMusic\VictoryMusic\YouWonMusic		652482
+	122559405	ShuttleBlast	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\Jump_D357A3A1.wem		\Actor-Mixer Hierarchy\SFX\All\ShuttleBlast		52044
+	137771650	ProceedtoEscapePod	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\ProceedtoEscapePod_E008F555.wem		\Actor-Mixer Hierarchy\VoiceLines\Voices\ProceedtoEscapePod		26330
+	158002075	BearSounds_04	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\BearSounds_FFC4123D.wem		\Actor-Mixer Hierarchy\SFX\All\Jump\JumpBlend\Bear\BearSounds_04		6020
+	165007158	Heavy_Impact_Dist	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\Heavy_Impact_Dist_C74F7615.wem		\Actor-Mixer Hierarchy\SFX\All\MeteorHit\MeteorHit\HeavyHit\Heavy_Impact_Dist		14316
+	183855778	BearSounds	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\BearSounds_02AC9562.wem		\Actor-Mixer Hierarchy\SFX\All\Jump\JumpBlend\Bear\BearSounds		6806
+	185787310	BearSounds_03	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\BearSounds_00980009.wem		\Actor-Mixer Hierarchy\SFX\All\Jump\JumpBlend\Bear\BearSounds_03		4229
+	198894358	BearSounds_08	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\BearSounds_B706A30C.wem		\Actor-Mixer Hierarchy\SFX\All\Jump\JumpBlend\Bear\BearSounds_08		6145
+	232866770	Metal_Impact	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\Metal_Impact_4C93C917.wem		\Actor-Mixer Hierarchy\SFX\All\MeteorHit\MeteorHit\Metal_Impact		52979
+	234242146	Chill_Music	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\Chill_Music_9B96ECC7.wem		\Interactive Music Hierarchy\Music\MusicManager\MenuTutorialMusic\MenuTutorialMusic\Chill_Music		736562
+	246155340	Music_Intro	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\Music_Intro_9B96ECC7.wem		\Interactive Music Hierarchy\Music\MusicManager\MainMusic\Intro\Music_Intro		118015
+	247890544	BearSounds_01	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\BearSounds_EE330485.wem		\Actor-Mixer Hierarchy\SFX\All\Jump\JumpBlend\Bear\BearSounds_01		6149
+	289453342	Hacking_Succes	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\Hacking_Succes_6296B0F9.wem		\Actor-Mixer Hierarchy\SFX\All\Hacking\Hacking_Succes		5198
+	311768504	Music_Part1	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\Music_Part1_9B96ECC7.wem		\Interactive Music Hierarchy\Music\MusicManager\MainMusic\Part_01\Music_Part1		918875
+	351747193	BearSounds_02	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\BearSounds_BC208623.wem		\Actor-Mixer Hierarchy\SFX\All\Jump\JumpBlend\Bear\BearSounds_02		5198
+	387416137	BearSounds_06	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\BearSounds_9CB926D5.wem		\Actor-Mixer Hierarchy\SFX\All\Jump\JumpBlend\Bear\BearSounds_06		4952
+	393275151	ArtGravActivated	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\ArtGravActivated_5BC3F30B.wem		\Actor-Mixer Hierarchy\VoiceLines\Voices\ArtGravActivated		22263
+	394473718	OpenSkills	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\OpenSkills_6296B0F9.wem		\Actor-Mixer Hierarchy\SFX\All\UI\OpenSkills		7803
+	394600004	Doors_3	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\Doors_3_C8A57E32.wem		\Actor-Mixer Hierarchy\SFX\All\OpenDoors\Doors_3		22981
+	425372576	Skill_LevelDown	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\Skill_LevelDown_6296B0F9.wem		\Actor-Mixer Hierarchy\SFX\All\UI\Skill_LevelDown		2260
+	464014891	Meteor_2	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\Meteor_2_6A0281FC.wem		\Actor-Mixer Hierarchy\VoiceLines\Voices\MeteorImminent\Meteor_2		21764
+	492224224	BearSounds_05	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\BearSounds_83B9B6A5.wem		\Actor-Mixer Hierarchy\SFX\All\Jump\JumpBlend\Bear\BearSounds_05		3909
+	538589019	NightVision_activated	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\Goggles_40004F5A.wem		\Actor-Mixer Hierarchy\SFX\All\NightVision_activated		16840
+	644206336	Doors_02	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\Doors_2_A271544C.wem		\Actor-Mixer Hierarchy\SFX\All\CloseDoors\Doors_02		19090
+	675271081	Stunned	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\Stunned_6296B0F9.wem		\Actor-Mixer Hierarchy\SFX\All\Stunned		12350
+	685695728	Meteor_3	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\Meteor_3_3387B55B.wem		\Actor-Mixer Hierarchy\VoiceLines\Voices\MeteorImminent\Meteor_3		21443
+	700986361	Music_Part2	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\Music_Part2_9B96ECC7.wem		\Interactive Music Hierarchy\Music\MusicManager\MainMusic\Part_02\Music_Part2		1011736
+	713445633	Hack_Denied	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\Hack_Denied_6296B0F9.wem		\Actor-Mixer Hierarchy\SFX\All\Hacking\Hack_Denied		6425
+	718178605	Meteor_1	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\Meteor_1_CB13E23D.wem		\Actor-Mixer Hierarchy\VoiceLines\Voices\MeteorImminent\Meteor_1		23038
+	735858443	Doors_2	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\Doors_2_06E30FD4.wem		\Actor-Mixer Hierarchy\SFX\All\OpenDoors\Doors_2		21806
+	740393319	Jump	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\Jump_70166163.wem		\Actor-Mixer Hierarchy\SFX\All\Jump\JumpBlend\Jump		16040
+	754289797	NightVision_deactivated	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\Goggles_6C1E4D46.wem		\Actor-Mixer Hierarchy\SFX\All\NightVision_deactivated		3679
+	771721023	MetalCreak	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\MetalCreak_DEBACD1C.wem		\Actor-Mixer Hierarchy\SFX\All\MeteorHit\MeteorHit\MetalCreak		106269
+	855726674	Doors_01	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\Doors_1_7CD15E79.wem		\Actor-Mixer Hierarchy\SFX\All\CloseDoors\Doors_01		19195
+	866111838	Music_Part3	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\Music_Part3_9B96ECC7.wem		\Interactive Music Hierarchy\Music\MusicManager\MainMusic\Part_03\Music_Part3		561279
+	909590994	UI_2	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\UI_2_6D97B73F.wem		\Actor-Mixer Hierarchy\SFX\All\UI\UI_2		1013
+	910675417	Doors_1	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\Doors_1_11412C7E.wem		\Actor-Mixer Hierarchy\SFX\All\OpenDoors\Doors_1		18163
+	923713329	Heavy_Impact_Dist_01	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\Heavy_Impact_Dist_57A7B09E.wem		\Actor-Mixer Hierarchy\SFX\All\MeteorHit\MeteorHit\HeavyHit\Heavy_Impact_Dist_01		17334
+	939552175	DeathHit	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\DeathHit_6296B0F9.wem		\Actor-Mixer Hierarchy\SFX\All\Death\Death\DeathHit		113091
+	945750013	BearSounds	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\BearSounds_649974C3.wem		\Actor-Mixer Hierarchy\SFX\All\Death\Death\BearSounds		23988
+	971632814	Doors_03	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\Doors_3_689C2B64.wem		\Actor-Mixer Hierarchy\SFX\All\CloseDoors\Doors_03		20310
+	1013435566	YouDiedMusic	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\YouDiedMusic_9B96ECC7.wem		\Interactive Music Hierarchy\Music\MusicManager\DeathMusic\DeathMusic\YouDiedMusic		41672
+	1024100276	Hull_Hit	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\Hull_Hit_25AB465B.wem		\Actor-Mixer Hierarchy\SFX\All\MeteorHit\MeteorHit\Hull_Hit		56322
+	1046422221	Heavy_Impact_Dist_02	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\Heavy_Impact_Dist_CBCBEC24.wem		\Actor-Mixer Hierarchy\SFX\All\MeteorHit\MeteorHit\HeavyHit\Heavy_Impact_Dist_02		22360
+	1053193434	BearSounds_07	Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\.cache\Windows\SFX\BearSounds_3BC4D575.wem		\Actor-Mixer Hierarchy\SFX\All\Jump\JumpBlend\Bear\BearSounds_07		5227
+

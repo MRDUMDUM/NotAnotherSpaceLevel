@@ -13,16 +13,23 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_DANGERTOXICGAS = 2100760483U;
         static const AkUniqueID PLAY_DEATH = 1172822028U;
         static const AkUniqueID PLAY_DOORCLOSE = 2721379730U;
         static const AkUniqueID PLAY_DOOROPEN = 3197300806U;
+        static const AkUniqueID PLAY_ESCAPEPOD = 2456639128U;
+        static const AkUniqueID PLAY_ESCAPEVOICE = 488168703U;
         static const AkUniqueID PLAY_GOGGLES_ACTIVATE = 2295817318U;
         static const AkUniqueID PLAY_GOGGLES_DEACTIVATE = 2855167047U;
+        static const AkUniqueID PLAY_GRAVITYACT = 5356008U;
+        static const AkUniqueID PLAY_GRAVITYDIS = 4265929456U;
         static const AkUniqueID PLAY_HACK_DENIED = 2890400009U;
         static const AkUniqueID PLAY_HACK_SUCCES = 2267716414U;
         static const AkUniqueID PLAY_JUMP = 3689126666U;
         static const AkUniqueID PLAY_METEORHIT = 867002421U;
+        static const AkUniqueID PLAY_METEORVOICE = 561502880U;
         static const AkUniqueID PLAY_MUSIC = 2932040671U;
+        static const AkUniqueID PLAY_PROCEEDVOICE = 2868217562U;
         static const AkUniqueID PLAY_SKILL_LEVELDOWN = 1096525642U;
         static const AkUniqueID PLAY_SKILL_LEVELUP = 4192500681U;
         static const AkUniqueID PLAY_SKILL_MANAGEOPEN = 456935401U;
@@ -72,7 +79,7 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
-        static const AkUniqueID MAIN = 3161908922U;
+        static const AkUniqueID SOUNDBANK = 1661994096U;
     } // namespace BANKS
 
     namespace BUSSES
