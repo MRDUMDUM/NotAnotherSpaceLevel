@@ -48,6 +48,8 @@ public class MagnusPlayerMovement : MonoBehaviour
     public bool r1Pressed;
     public bool downPressed;
     public bool rightPressed;
+    public bool l1Pressed;
+    public bool leftPressed;
 
 
     // Start is called before the first frame update

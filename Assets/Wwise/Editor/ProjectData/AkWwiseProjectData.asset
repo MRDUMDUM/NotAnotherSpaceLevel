@@ -12,14 +12,458 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c8f43637d30440a6adcd6d5fb86374f, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
-  AcousticTextureWwu: []
-  AuxBusWwu: []
-  BankWwu: []
-  EventWwu: []
-  RtpcWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  TriggerWwu: []
-  ExpandedItems: []
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: ffdd26ac7a657041b214623b23017059
+    GuidInternal: 
+    m_lastTime: -8586270257774775808
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: ca76a62f923ad644aa4308a87aaf0095
+    GuidInternal: 
+    m_lastTime: -8586270257664775808
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 404ec7b774463a44a4d24a0a23e3b94d
+    GuidInternal: 
+    m_lastTime: -8586270232894775808
+    List: []
+  - PhysicalPath: SoundBanks/Soundbank.wwu
+    ParentPhysicalPath: 
+    guid: ecf8628a8695114da990b0d75d92c75b
+    GuidInternal: 
+    m_lastTime: -8586270164384775808
+    List:
+    - name: Soundbank
+      guid: c07cead7132d7045b63b540cc9cb639d
+      id: 1661994096
+      PathAndIcons:
+      - ElementName: Soundbank
+        ObjectType: 12
+      - ElementName: Soundbank
+        ObjectType: 7
+      Path: Soundbank/Soundbank
+    - name: Soundbank_01
+      guid: 84bef9797da507469590ca5659f98d8f
+      id: 3200950630
+      PathAndIcons:
+      - ElementName: Soundbank
+        ObjectType: 12
+      - ElementName: Soundbank_01
+        ObjectType: 7
+      Path: Soundbank/Soundbank_01
+  EventWwu:
+  - PhysicalPath: Events/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 2ea329e90d09dc4392409f83d3e19765
+    GuidInternal: 
+    m_lastTime: -8586270192514775808
+    List: []
+  - PhysicalPath: Events/Events.wwu
+    ParentPhysicalPath: 
+    guid: f00ccc8dbbf8844c98524414d2806bdc
+    GuidInternal: 
+    m_lastTime: -8586270192504775808
+    List:
+    - name: Play_DangerToxicGas
+      guid: e8866e0f73615040a88bc3de9ba889ca
+      id: 2100760483
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 12
+      - ElementName: Play_DangerToxicGas
+        ObjectType: 3
+      Path: Events/Play_DangerToxicGas
+      maxAttenuation: 0
+      maxDuration: 2.828041
+      minDuration: 2.828041
+    - name: Play_Death
+      guid: 4200153376b2d9498649d1de15dc22a3
+      id: 1172822028
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 12
+      - ElementName: Play_Death
+        ObjectType: 3
+      Path: Events/Play_Death
+      maxAttenuation: 0
+      maxDuration: 6.367805
+      minDuration: 6.367805
+    - name: Play_DoorClose
+      guid: c5956db6f5fc56498c610ecde99449e9
+      id: 2721379730
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 12
+      - ElementName: Play_DoorClose
+        ObjectType: 3
+      Path: Events/Play_DoorClose
+      maxAttenuation: 50
+      maxDuration: 1.565397
+      minDuration: 1.362843
+    - name: Play_DoorOpen
+      guid: 2b770aa320082942ab6a10e7172dbbeb
+      id: 3197300806
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 12
+      - ElementName: Play_DoorOpen
+        ObjectType: 3
+      Path: Events/Play_DoorOpen
+      maxAttenuation: 50
+      maxDuration: 1.69406
+      minDuration: 1.241402
+    - name: Play_EscapeVoice
+      guid: 3076a2f66b7b334a906a895c7f2489a0
+      id: 488168703
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 12
+      - ElementName: Play_EscapeVoice
+        ObjectType: 3
+      Path: Events/Play_EscapeVoice
+      maxAttenuation: 0
+      maxDuration: 2.686511
+      minDuration: 2.686511
+    - name: Play_Goggles_Activate
+      guid: 5a8875b1f16a0047a01816e2735bdedf
+      id: 2295817318
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 12
+      - ElementName: Play_Goggles_Activate
+        ObjectType: 3
+      Path: Events/Play_Goggles_Activate
+      maxAttenuation: 0
+      maxDuration: 1.195747
+      minDuration: 1.195747
+    - name: Play_Goggles_DeActivate
+      guid: cd52ee495b306b4b875f3e09e59c9b4f
+      id: 2855167047
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 12
+      - ElementName: Play_Goggles_DeActivate
+        ObjectType: 3
+      Path: Events/Play_Goggles_DeActivate
+      maxAttenuation: 0
+      maxDuration: 0.199878
+      minDuration: 0.199878
+    - name: Play_GravityAct
+      guid: 4476332b4456e64a81e7ac2a353d1a7e
+      id: 5356008
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 12
+      - ElementName: Play_GravityAct
+        ObjectType: 3
+      Path: Events/Play_GravityAct
+      maxAttenuation: 0
+      maxDuration: 2.244912
+      minDuration: 2.244912
+    - name: Play_GravityDis
+      guid: 4564bfbdb7ebf949a5b316996de420ab
+      id: 4265929456
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 12
+      - ElementName: Play_GravityDis
+        ObjectType: 3
+      Path: Events/Play_GravityDis
+      maxAttenuation: 0
+      maxDuration: 2.612675
+      minDuration: 2.612675
+    - name: Play_Hack_Denied
+      guid: 5d3a4d94abb7f349b16f06f6a5fd14d0
+      id: 2890400009
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 12
+      - ElementName: Play_Hack_Denied
+        ObjectType: 3
+      Path: Events/Play_Hack_Denied
+      maxAttenuation: 50
+      maxDuration: 0.846866
+      minDuration: 0.846866
+    - name: Play_Hack_Succes
+      guid: b502b4de94cd094a88908d56735e8d65
+      id: 2267716414
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 12
+      - ElementName: Play_Hack_Succes
+        ObjectType: 3
+      Path: Events/Play_Hack_Succes
+      maxAttenuation: 50
+      maxDuration: 0.930431
+      minDuration: 0.930431
+    - name: Play_Jump
+      guid: 05006b86f4abdc4bb127aa7e2f007cb1
+      id: 3689126666
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 12
+      - ElementName: Play_Jump
+        ObjectType: 3
+      Path: Events/Play_Jump
+      maxAttenuation: 0
+      maxDuration: 0.730128
+      minDuration: 0.423602
+    - name: Play_MeteorHit
+      guid: e421898f6aa0bf44a0d6013a5153db26
+      id: 867002421
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 12
+      - ElementName: Play_MeteorHit
+        ObjectType: 3
+      Path: Events/Play_MeteorHit
+      maxAttenuation: 0
+      maxDuration: 15.869133
+      minDuration: 11.221172
+    - name: Play_MeteorVoice
+      guid: 9669a3e8385e2d478fdcd89c62ffa821
+      id: 561502880
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 12
+      - ElementName: Play_MeteorVoice
+        ObjectType: 3
+      Path: Events/Play_MeteorVoice
+      maxAttenuation: 0
+      maxDuration: 2.401093
+      minDuration: 2.205628
+    - name: Play_Music
+      guid: afd2286489c7ac488705ba77499f6145
+      id: 2932040671
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 12
+      - ElementName: Play_Music
+        ObjectType: 3
+      Path: Events/Play_Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_ProceedVoice
+      guid: 8192bb4ab0de6d44b67d550f8495983b
+      id: 2868217562
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 12
+      - ElementName: Play_ProceedVoice
+        ObjectType: 3
+      Path: Events/Play_ProceedVoice
+      maxAttenuation: 0
+      maxDuration: 2.092022
+      minDuration: 2.092022
+    - name: Play_Skill_LevelDown
+      guid: 059addd954354640809cb8f20f46cdec
+      id: 1096525642
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 12
+      - ElementName: Play_Skill_LevelDown
+        ObjectType: 3
+      Path: Events/Play_Skill_LevelDown
+      maxAttenuation: 0
+      maxDuration: 0.16684
+      minDuration: 0.16684
+    - name: Play_Skill_LevelUp
+      guid: b358f3534e8235479bf16cd8185969b6
+      id: 4192500681
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 12
+      - ElementName: Play_Skill_LevelUp
+        ObjectType: 3
+      Path: Events/Play_Skill_LevelUp
+      maxAttenuation: 0
+      maxDuration: 0.397813
+      minDuration: 0.397813
+    - name: Play_Skill_ManageOpen
+      guid: 893613d8266a0c4e8ac4e5c6b83a21b8
+      id: 456935401
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 12
+      - ElementName: Play_Skill_ManageOpen
+        ObjectType: 3
+      Path: Events/Play_Skill_ManageOpen
+      maxAttenuation: 0
+      maxDuration: 0.170082
+      minDuration: 0.170082
+    - name: Play_StartGame
+      guid: 9940d6bd80ac39498b31cfb8e41fdfac
+      id: 1444205428
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 12
+      - ElementName: Play_StartGame
+        ObjectType: 3
+      Path: Events/Play_StartGame
+      maxAttenuation: 0
+      maxDuration: 2.730431
+      minDuration: 2.730431
+    - name: Play_Stunned
+      guid: 2dc0a9d968288140b5c7d13cfd0ab845
+      id: 1426838595
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 12
+      - ElementName: Play_Stunned
+        ObjectType: 3
+      Path: Events/Play_Stunned
+      maxAttenuation: 0
+      maxDuration: 1
+      minDuration: 1
+    - name: Play_UI
+      guid: 1272e9dd3292fd40b67216f0e6dd4c59
+      id: 2044747472
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 12
+      - ElementName: Play_UI
+        ObjectType: 3
+      Path: Events/Play_UI
+      maxAttenuation: 0
+      maxDuration: 0.024929
+      minDuration: 0.024929
+  RtpcWwu:
+  - PhysicalPath: Game Parameters/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: aac8c728e24e8a49b4d94f9369b52d52
+    GuidInternal: 
+    m_lastTime: -8586270257774775808
+    List: []
+  StateWwu:
+  - PhysicalPath: States/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: d3f9f2c7ce79ac4391b4b9c1aeee5e7e
+    GuidInternal: 
+    m_lastTime: -8586270257614775808
+    List:
+    - name: GamePhase
+      guid: 4bdfad09ce966a4ea13abc9f9b324bc1
+      id: 768929368
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: GamePhase
+        ObjectType: 9
+      Path: Default Work Unit/GamePhase
+      values:
+      - name: Main
+        guid: 7a5c51d22670994498f2147262b0ad60
+        id: 3161908922
+        PathAndIcons:
+        - ElementName: Main
+          ObjectType: 8
+      - name: Menu_Tutorial
+        guid: 2f780cec751d0a498cba22a68c255138
+        id: 1018478861
+        PathAndIcons:
+        - ElementName: Menu_Tutorial
+          ObjectType: 8
+      - name: None
+        guid: 2aa9592bd5620b438552b999d559157e
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      - name: Victory
+        guid: ae3298a0d7436a4bb77baaa2fd1aeee6
+        id: 2716678721
+        PathAndIcons:
+        - ElementName: Victory
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: MenuState
+      guid: 6e68c27e61a0124ca30bdeffaac4034b
+      id: 1548586727
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MenuState
+        ObjectType: 9
+      Path: Default Work Unit/MenuState
+      values:
+      - name: InGame
+        guid: 186df8a609bb1143a4434e4f58ef840d
+        id: 984691642
+        PathAndIcons:
+        - ElementName: InGame
+          ObjectType: 8
+      - name: InMenu
+        guid: dcd3d9aa87a3834383e5212412770fbe
+        id: 3374585465
+        PathAndIcons:
+        - ElementName: InMenu
+          ObjectType: 8
+      - name: None
+        guid: 9f1b492230059b43821eca6b8024dc49
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: PlayerState
+      guid: 603fe742137d3b49ad2ce085020407fc
+      id: 3285234865
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PlayerState
+        ObjectType: 9
+      Path: Default Work Unit/PlayerState
+      values:
+      - name: Alive
+        guid: d55ccf15c9fa5a44a3a46b196b4973fd
+        id: 655265632
+        PathAndIcons:
+        - ElementName: Alive
+          ObjectType: 8
+      - name: Dead
+        guid: 7a163f0c5f08ca4bbc5f75629ff1c6cb
+        id: 2044049779
+        PathAndIcons:
+        - ElementName: Dead
+          ObjectType: 8
+      - name: None
+        guid: a66593795745ac49aaca20a2866b74fe
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  SwitchWwu:
+  - PhysicalPath: Switches/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: a5f9bb2f17e35c4bbf4b15582509466d
+    GuidInternal: 
+    m_lastTime: -8586270257774775808
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 382039ac78d3a34d92540436ef9766e6
+    GuidInternal: 
+    m_lastTime: -8586270257774775808
+    List: []
+  ExpandedItems:
+  - /NotAnotherSpaceLevel_WwiseProject
+  - /NotAnotherSpaceLevel_WwiseProject/Events
+  - /NotAnotherSpaceLevel_WwiseProject/Events/Events
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

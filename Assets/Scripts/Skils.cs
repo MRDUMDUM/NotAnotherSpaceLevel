@@ -31,12 +31,47 @@ public class Skils : MonoBehaviour
     {
         HackingLevel = player.GetComponent<MagnusPlayerMovement>().hackingLevel;
         JumpingLevel = player.GetComponent<MagnusPlayerMovement>().jumpLevel;
-        if (Input.GetKey(KeyCode.A))
+        if (player.GetComponent<MagnusPlayerMovement>().r1Pressed || player.GetComponent<MagnusPlayerMovement>().l1Pressed)
         {
-            
             if (alphaLevel < 0.5f)
             {
                 alphaLevel += 0.01f;
+            }
+            if (player.GetComponent<MagnusPlayerMovement>().r1Pressed && true) // If levels are available
+            {
+                if (player.GetComponent<MagnusPlayerMovement>().downPressed && player.GetComponent<MagnusPlayerMovement>().jumpLevel < 3)
+                {
+                    player.GetComponent<MagnusPlayerMovement>().jumpLevel++;
+                    // availableLevels--;
+                }
+                if (player.GetComponent<MagnusPlayerMovement>().rightPressed && player.GetComponent<MagnusPlayerMovement>().hackingLevel < 3)
+                {
+                    player.GetComponent<MagnusPlayerMovement>().hackingLevel++;
+                    // availableLevels--;
+                }
+                if (player.GetComponent<MagnusPlayerMovement>().leftPressed && player.GetComponent<MagnusPlayerMovement>().goggleLevel < 2)
+                {
+                    player.GetComponent<MagnusPlayerMovement>().goggleLevel++;
+                    // availableLevels--;
+                }
+            }
+            else if (player.GetComponent<MagnusPlayerMovement>().l1Pressed)
+            {
+                if (player.GetComponent<MagnusPlayerMovement>().downPressed && player.GetComponent<MagnusPlayerMovement>().jumpLevel > 0)
+                {
+                    player.GetComponent<MagnusPlayerMovement>().jumpLevel--;
+                    //availableLevels++;
+                }
+                else if (player.GetComponent<MagnusPlayerMovement>().leftPressed && player.GetComponent<MagnusPlayerMovement>().goggleLevel > 0)
+                {
+                    player.GetComponent<MagnusPlayerMovement>().goggleLevel--;
+                    //availableLevels++;
+                }
+                else if (player.GetComponent<MagnusPlayerMovement>().rightPressed && player.GetComponent<MagnusPlayerMovement>().hackingLevel > 0)
+                {
+                    player.GetComponent<MagnusPlayerMovement>().hackingLevel--;
+                    //availableLevels++;
+                }
             }
         }
         else

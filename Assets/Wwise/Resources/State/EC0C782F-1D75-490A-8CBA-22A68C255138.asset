@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b702b850b330f40afa5686a92c0a9057, type: 3}
+  m_Name: EC0C782F-1D75-490A-8CBA-22A68C255138
+  m_EditorClassIdentifier: 
+  objectName: Menu_Tutorial
+  id: 1018478861
+  guid: EC0C782F-1D75-490A-8CBA-22A68C255138
+  WwiseStateGroupReference: {fileID: 11400000, guid: 731a45f1cc4724d6989b36fa083ad013,
+    type: 2}
