@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="94">
+	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\Assets\NotAnotherSpaceLevel_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1574585338" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\Assets\NotAnotherSpaceLevel_WwiseProject\Actor-Mixer Hierarchy\SFX.wwu" DateLow="1574585745" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\Assets\NotAnotherSpaceLevel_WwiseProject\Actor-Mixer Hierarchy\VoiceLines.wwu" DateLow="1574587592" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\Assets\NotAnotherSpaceLevel_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1574581112" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\Assets\NotAnotherSpaceLevel_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1574581108" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\Assets\NotAnotherSpaceLevel_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1574581108" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\Assets\NotAnotherSpaceLevel_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="1574581108" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\Assets\NotAnotherSpaceLevel_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1574504105" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\Assets\NotAnotherSpaceLevel_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1574581108" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\Assets\NotAnotherSpaceLevel_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1574581115" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\Assets\NotAnotherSpaceLevel_WwiseProject\Effects\Factory Effects.wwu" DateLow="1574585211" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\Assets\NotAnotherSpaceLevel_WwiseProject\Events\Default Work Unit.wwu" DateLow="1574587634" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\Assets\NotAnotherSpaceLevel_WwiseProject\Events\Events.wwu" DateLow="1574587635" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\Assets\NotAnotherSpaceLevel_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1574581108" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\Assets\NotAnotherSpaceLevel_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1574583597" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\Assets\NotAnotherSpaceLevel_WwiseProject\Interactive Music Hierarchy\Music.wwu" DateLow="1574585648" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\Assets\NotAnotherSpaceLevel_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1574581119" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\Assets\NotAnotherSpaceLevel_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1574581108" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\Assets\NotAnotherSpaceLevel_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="1574581108" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\Assets\NotAnotherSpaceLevel_WwiseProject\NotAnotherSpaceLevel_WwiseProject.crossover.wsettings" DateLow="1574587635" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\Assets\NotAnotherSpaceLevel_WwiseProject\NotAnotherSpaceLevel_WwiseProject.wproj" DateLow="1574583596" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\Assets\NotAnotherSpaceLevel_WwiseProject\Presets\Default Work Unit.wwu" DateLow="1574581108" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\Assets\NotAnotherSpaceLevel_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1574581108" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\Assets\NotAnotherSpaceLevel_WwiseProject\Queries\Factory Queries.wwu" DateLow="1574504105" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\Assets\NotAnotherSpaceLevel_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1574583596" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\Assets\NotAnotherSpaceLevel_WwiseProject\SoundBanks\Soundbank.wwu" DateLow="1574587635" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\Assets\NotAnotherSpaceLevel_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1574587634" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\Assets\NotAnotherSpaceLevel_WwiseProject\States\Default Work Unit.wwu" DateLow="1574581124" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\Assets\NotAnotherSpaceLevel_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1574581108" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\Assets\NotAnotherSpaceLevel_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1574581108" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\Assets\NotAnotherSpaceLevel_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1574581108" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1574585338" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\Actor-Mixer Hierarchy\SFX.wwu" DateLow="1574585745" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\Actor-Mixer Hierarchy\VoiceLines.wwu" DateLow="1574587592" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1574581112" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1574581108" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1574581108" DateHigh="0"/>
@@ -7,18 +41,23 @@
 	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1574504105" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1574581108" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1574581115" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\Effects\Factory Effects.wwu" DateLow="1574535498" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\Events\Default Work Unit.wwu" DateLow="1574581117" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\Effects\Factory Effects.wwu" DateLow="1574585211" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\Events\Default Work Unit.wwu" DateLow="1574587634" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\Events\Events.wwu" DateLow="1574587635" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1574581108" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1574583597" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\Interactive Music Hierarchy\Music.wwu" DateLow="1574585648" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1574581119" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1574581108" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="1574581108" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\NotAnotherSpaceLevel_WwiseProject.crossover.wsettings" DateLow="1574583499" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\NotAnotherSpaceLevel_WwiseProject.wproj" DateLow="1574581108" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\NotAnotherSpaceLevel_WwiseProject.crossover.wsettings" DateLow="1574590457" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\NotAnotherSpaceLevel_WwiseProject.wproj" DateLow="1574583596" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\Presets\Default Work Unit.wwu" DateLow="1574581108" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1574581108" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\Queries\Factory Queries.wwu" DateLow="1574504105" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1574581122" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1574583596" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\SoundBanks\Soundbank.wwu" DateLow="1574590447" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1574587634" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\States\Default Work Unit.wwu" DateLow="1574581124" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1574581108" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\UnityProjects\NotAnotherSpaceLevel\NotAnotherSpaceLevel_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1574581108" DateHigh="0"/>

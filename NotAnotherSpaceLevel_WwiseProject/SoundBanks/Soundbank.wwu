@@ -10,6 +10,13 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Soundbank_01" ID="{79F9BE84-A57D-4607-9590-CA5659F98D8F}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Events" ID="{8DCC0CF0-F8BB-4C84-9852-4414D2806BDC}" WorkUnitID="{8DCC0CF0-F8BB-4C84-9852-4414D2806BDC}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>
