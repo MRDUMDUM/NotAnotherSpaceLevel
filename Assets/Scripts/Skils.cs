@@ -49,7 +49,7 @@ public class Skils : MonoBehaviour
                     player.GetComponent<MagnusPlayerMovement>().hackingLevel++;
                     // availableLevels--;
                 }
-                if (player.GetComponent<MagnusPlayerMovement>().leftPressed && player.GetComponent<MagnusPlayerMovement>().GoggleLevel < 2)
+                if (player.GetComponent<MagnusPlayerMovement>().leftPressed && player.GetComponent<MagnusPlayerMovement>().goggleLevel < 2)
                 {
                     player.GetComponent<MagnusPlayerMovement>().goggleLevel++;
                     // availableLevels--;
