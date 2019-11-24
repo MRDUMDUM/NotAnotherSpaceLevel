@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8075509437363125159}
+  - component: {fileID: -7834692995906522433}
   m_Layer: 0
   m_Name: Panda
   m_TagString: Untagged
@@ -37,6 +38,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-7834692995906522433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1306985987491164220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f420470552d3a7642ba57a1586f8c28b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1306985987491164220}
+  HackingLevel: 0
+  JumpingLevel: 0
+  jump: []
+  hack: []
+  jumpActive: {r: 0, g: 0, b: 0, a: 0}
+  jumpDown: {r: 0, g: 0, b: 0, a: 0}
+  hackActive: {r: 0, g: 0, b: 0, a: 0}
+  hackdown: {r: 0, g: 0, b: 0, a: 0}
+  alphaLevel: 0
 --- !u!1 &1452544725403525744
 GameObject:
   m_ObjectHideFlags: 0
@@ -470,7 +493,7 @@ Animator:
   m_GameObject: {fileID: 8561983942434063238}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b44397c5ec45943429e28f5c18c11ba4, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
