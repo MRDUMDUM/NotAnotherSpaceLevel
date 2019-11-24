@@ -1,6 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{2E1E318C-B9AD-45C8-AEC1-3C02274AE7D2}" SchemaVersion="94">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{2E1E318C-B9AD-45C8-AEC1-3C02274AE7D2}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{2E1E318C-B9AD-45C8-AEC1-3C02274AE7D2}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Gameplay" ID="{1C99C7B4-8195-4A82-B551-D3ABE4F567A3}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Stunned" ID="{D9A9C02D-2868-4081-B5C7-D13CFD0AB845}" WorkUnitID="{E929A32E-090D-43DC-9240-9F83D3E19765}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Goggles_Activate" ID="{B175885A-6AF1-4700-A018-16E2735BDEDF}" WorkUnitID="{E929A32E-090D-43DC-9240-9F83D3E19765}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Jump" ID="{866B0005-ABF4-4BDC-B127-AA7E2F007CB1}" WorkUnitID="{E929A32E-090D-43DC-9240-9F83D3E19765}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Skill_LevelUp" ID="{53F358B3-824E-4735-9BF1-6CD8185969B6}" WorkUnitID="{E929A32E-090D-43DC-9240-9F83D3E19765}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Death" ID="{33150042-B276-49D9-8649-D1DE15DC22A3}" WorkUnitID="{E929A32E-090D-43DC-9240-9F83D3E19765}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Goggles_DeActivate" ID="{49EE52CD-305B-4B6B-875F-3E09E59C9B4F}" WorkUnitID="{E929A32E-090D-43DC-9240-9F83D3E19765}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_MeteorHit" ID="{8F8921E4-A06A-44BF-A0D6-013A5153DB26}" WorkUnitID="{E929A32E-090D-43DC-9240-9F83D3E19765}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Skill_ManageOpen" ID="{D8133689-6A26-4E0C-8AC4-E5C6B83A21B8}" WorkUnitID="{E929A32E-090D-43DC-9240-9F83D3E19765}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_DoorClose" ID="{B66D95C5-FCF5-4956-8C61-0ECDE99449E9}" WorkUnitID="{E929A32E-090D-43DC-9240-9F83D3E19765}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Hack_Denied" ID="{944D3A5D-B7AB-49F3-B16F-06F6A5FD14D0}" WorkUnitID="{E929A32E-090D-43DC-9240-9F83D3E19765}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Music" ID="{6428D2AF-C789-48AC-8705-BA77499F6145}" WorkUnitID="{E929A32E-090D-43DC-9240-9F83D3E19765}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_StartGame" ID="{BDD64099-AC80-4939-8B31-CFB8E41FDFAC}" WorkUnitID="{E929A32E-090D-43DC-9240-9F83D3E19765}"/>
+							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_DoorOpen" ID="{A30A772B-0820-4229-AB6A-10E7172DBBEB}" WorkUnitID="{E929A32E-090D-43DC-9240-9F83D3E19765}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Hack_Succes" ID="{DEB402B5-CD94-4A09-8890-8D56735E8D65}" WorkUnitID="{E929A32E-090D-43DC-9240-9F83D3E19765}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Skill_LevelDown" ID="{D9DD9A05-3554-4046-809C-B8F20F46CDEC}" WorkUnitID="{E929A32E-090D-43DC-9240-9F83D3E19765}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_UI" ID="{DDE97212-9232-40FD-B672-16F0E6DD4C59}" WorkUnitID="{E929A32E-090D-43DC-9240-9F83D3E19765}"/>
+							<Position X="3" Y="3"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Alive" ID="{15CF5CD5-FAC9-445A-A3A4-6B196B4973FD}"/>
+						<CurrentStateRef Name="InGame" ID="{A6F86D18-BB09-4311-A443-4E4F58EF840D}"/>
+						<CurrentStateRef Name="Main" ID="{D2515C7A-7026-4499-98F2-147262B0AD60}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

@@ -1,0 +1,30 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	768929368	GamePhase			\Default Work Unit\GamePhase	
+	1548586727	MenuState			\Default Work Unit\MenuState	
+	3285234865	PlayerState			\Default Work Unit\PlayerState	
+
+State	ID	Name	State Group			Notes
+	0	None	GamePhase			
+	1018478861	Menu_Tutorial	GamePhase			
+	2716678721	Victory	GamePhase			
+	3161908922	Main	GamePhase			
+	0	None	MenuState			
+	984691642	InGame	MenuState			
+	3374585465	InMenu	MenuState			
+	0	None	PlayerState			
+	655265632	Alive	PlayerState			
+	2044049779	Dead	PlayerState			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	404421877	Dead	PlayerState	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Voice		
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	3170124113	Voice			\Default Work Unit\Master Audio Bus\Voice	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

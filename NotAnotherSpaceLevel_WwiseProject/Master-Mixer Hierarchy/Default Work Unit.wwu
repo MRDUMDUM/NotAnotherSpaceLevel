@@ -9,6 +9,63 @@
 							<ObjectRef Name="System" ID="{7741BCB3-A805-47DE-96D1-1065D262D2BE}" WorkUnitID="{2A19A520-3CE4-403D-98E8-7A1C4AC2C6FE}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Music" ID="{7AF61BF0-3568-4D5A-ADE1-009572C7B95E}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+						</Bus>
+						<Bus Name="SFX" ID="{EE99280F-3C02-4663-BC48-CFDE6619022A}"/>
+						<Bus Name="Voice" ID="{88FB41F8-E82A-44FA-8452-01AC2BC44C9F}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="PlayerState" ID="{42E73F60-7D13-493B-AD2C-E085020407FC}"/>
+									</StateGroupInfo>
+									<StateGroupInfo>
+										<StateGroupRef Name="GamePhase" ID="{09ADDF4B-96CE-4E6A-A13A-BC9F9B324BC1}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Alive" ID="{15CF5CD5-FAC9-445A-A3A4-6B196B4973FD}"/>
+										<CustomState Name="" ID="{994C435A-93CE-4BA9-BEDE-AC6AE51EB869}" ShortID="397894689"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Main" ID="{D2515C7A-7026-4499-98F2-147262B0AD60}"/>
+										<CustomState Name="" ID="{D0B24131-E2A6-489E-B932-BD54492767F1}" ShortID="140832594"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Menu_Tutorial" ID="{EC0C782F-1D75-490A-8CBA-22A68C255138}"/>
+										<CustomState Name="" ID="{465004EC-FEE0-49E2-A1DF-A8435D194099}" ShortID="886618924"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Victory" ID="{A09832AE-43D7-4B6A-B77B-AAA2FD1AEEE6}"/>
+										<CustomState Name="" ID="{7D3CA553-4CC7-466D-9D47-CB517B4F3194}" ShortID="898635609"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Dead" ID="{0C3F167A-085F-4BCA-BC5F-75629FF1C6CB}"/>
+										<CustomState Name="" ID="{BF92F0AF-7A98-494F-89AB-FAB7861BC4CF}" ShortID="404421877">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</Bus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>
