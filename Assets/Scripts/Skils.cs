@@ -33,7 +33,7 @@ public class Skils : MonoBehaviour
         JumpingLevel = player.GetComponent<MagnusPlayerMovement>().jumpLevel;
         if (Input.GetKey(KeyCode.A))
         {
-            Debug.Log("working?");
+            
             if (alphaLevel < 0.5f)
             {
                 alphaLevel += 0.01f;
