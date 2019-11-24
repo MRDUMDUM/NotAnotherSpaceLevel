@@ -1,23 +1,6 @@
-<<<<<<< Updated upstream
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{57D6E588-BFA8-441A-ABB0-385999642B95}" SchemaVersion="94">
+<WwiseDocument Type="WorkUnit" ID="{B7C74E40-4674-443A-A4D2-4A0A23E3B94D}" SchemaVersion="94">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{57D6E588-BFA8-441A-ABB0-385999642B95}" PersistMode="Standalone">
-			<ChildrenList>
-				<SoundBank Name="Main" ID="{DB05074B-06BA-46B3-907B-41B0AD77A6A6}">
-					<ObjectInclusionList/>
-					<ObjectExclusionList/>
-					<GameSyncExclusionList/>
-				</SoundBank>
-			</ChildrenList>
-		</WorkUnit>
+		<WorkUnit Name="Default Work Unit" ID="{B7C74E40-4674-443A-A4D2-4A0A23E3B94D}" PersistMode="Standalone"/>
 	</SoundBanks>
 </WwiseDocument>
-=======
-<?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{57D6E588-BFA8-441A-ABB0-385999642B95}" SchemaVersion="94">
-	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{57D6E588-BFA8-441A-ABB0-385999642B95}" PersistMode="Standalone"/>
-	</SoundBanks>
-</WwiseDocument>
->>>>>>> Stashed changes

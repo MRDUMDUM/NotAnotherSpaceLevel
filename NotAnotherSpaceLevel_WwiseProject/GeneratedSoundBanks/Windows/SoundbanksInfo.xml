@@ -16,208 +16,238 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX">
-			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
-			<ShortName>Main</ShortName>
-			<Path>Main.bnk</Path>
+		<SoundBank Id="1661994096" Language="SFX">
+			<ObjectPath>\SoundBanks\Soundbank\Soundbank</ObjectPath>
+			<ShortName>Soundbank</ShortName>
+			<Path>Soundbank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1172822028" Name="Play_Death" ObjectPath="\Events\Default Work Unit\Play_Death" DurationType="OneShot" DurationMin="8.500000" DurationMax="8.500000"/>
-				<Event Id="2721379730" Name="Play_DoorClose" ObjectPath="\Events\Default Work Unit\Play_DoorClose" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="1.270833" DurationMax="1.593989"/>
-				<Event Id="3197300806" Name="Play_DoorOpen" ObjectPath="\Events\Default Work Unit\Play_DoorOpen" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="1.649617" DurationMax="1.754318"/>
-				<Event Id="2295817318" Name="Play_Goggles_Activate" ObjectPath="\Events\Default Work Unit\Play_Goggles_Activate" DurationType="OneShot" DurationMin="1.113623" DurationMax="1.162928"/>
-				<Event Id="2855167047" Name="Play_Goggles_DeActivate" ObjectPath="\Events\Default Work Unit\Play_Goggles_DeActivate" DurationType="OneShot" DurationMin="0.199817" DurationMax="0.211699"/>
-				<Event Id="2890400009" Name="Play_Hack_Denied" ObjectPath="\Events\Default Work Unit\Play_Hack_Denied" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="0.732994" DurationMax="0.732994"/>
-				<Event Id="2267716414" Name="Play_Hack_Succes" ObjectPath="\Events\Default Work Unit\Play_Hack_Succes" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="0.930431" DurationMax="0.930431"/>
-				<Event Id="3689126666" Name="Play_Jump" ObjectPath="\Events\Default Work Unit\Play_Jump" DurationType="OneShot" DurationMin="0.493055" DurationMax="0.824704"/>
-				<Event Id="867002421" Name="Play_MeteorHit" ObjectPath="\Events\Default Work Unit\Play_MeteorHit" DurationType="OneShot" DurationMin="10.277600" DurationMax="11.429794"/>
-				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music" DurationType="Infinite"/>
-				<Event Id="1096525642" Name="Play_Skill_LevelDown" ObjectPath="\Events\Default Work Unit\Play_Skill_LevelDown" DurationType="OneShot" DurationMin="0.152993" DurationMax="0.152993"/>
-				<Event Id="4192500681" Name="Play_Skill_LevelUp" ObjectPath="\Events\Default Work Unit\Play_Skill_LevelUp" DurationType="OneShot" DurationMin="0.433818" DurationMax="0.433818"/>
-				<Event Id="456935401" Name="Play_Skill_ManageOpen" ObjectPath="\Events\Default Work Unit\Play_Skill_ManageOpen" DurationType="OneShot" DurationMin="0.168304" DurationMax="0.168304"/>
-				<Event Id="1444205428" Name="Play_StartGame" ObjectPath="\Events\Default Work Unit\Play_StartGame" DurationType="OneShot" DurationMin="2.432537" DurationMax="2.432537"/>
-				<Event Id="1426838595" Name="Play_Stunned" ObjectPath="\Events\Default Work Unit\Play_Stunned" DurationType="OneShot" DurationMin="1.296840" DurationMax="1.373954"/>
-				<Event Id="2044747472" Name="Play_UI" ObjectPath="\Events\Default Work Unit\Play_UI" DurationType="OneShot" DurationMin="0.048541" DurationMax="0.048823"/>
+				<Event Id="2100760483" Name="Play_DangerToxicGas" ObjectPath="\Events\Events\Play_DangerToxicGas" DurationType="OneShot" DurationMin="2.828041" DurationMax="2.828041"/>
+				<Event Id="1172822028" Name="Play_Death" ObjectPath="\Events\Events\Play_Death" DurationType="OneShot" DurationMin="6.367805" DurationMax="6.367805"/>
+				<Event Id="2721379730" Name="Play_DoorClose" ObjectPath="\Events\Events\Play_DoorClose" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="1.362843" DurationMax="1.565397"/>
+				<Event Id="3197300806" Name="Play_DoorOpen" ObjectPath="\Events\Events\Play_DoorOpen" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="1.241402" DurationMax="1.694060"/>
+				<Event Id="488168703" Name="Play_EscapeVoice" ObjectPath="\Events\Events\Play_EscapeVoice" DurationType="OneShot" DurationMin="2.686511" DurationMax="2.686511"/>
+				<Event Id="2295817318" Name="Play_Goggles_Activate" ObjectPath="\Events\Events\Play_Goggles_Activate" DurationType="OneShot" DurationMin="1.195747" DurationMax="1.195747"/>
+				<Event Id="2855167047" Name="Play_Goggles_DeActivate" ObjectPath="\Events\Events\Play_Goggles_DeActivate" DurationType="OneShot" DurationMin="0.199878" DurationMax="0.199878"/>
+				<Event Id="5356008" Name="Play_GravityAct" ObjectPath="\Events\Events\Play_GravityAct" DurationType="OneShot" DurationMin="2.244912" DurationMax="2.244912"/>
+				<Event Id="4265929456" Name="Play_GravityDis" ObjectPath="\Events\Events\Play_GravityDis" DurationType="OneShot" DurationMin="2.612675" DurationMax="2.612675"/>
+				<Event Id="2890400009" Name="Play_Hack_Denied" ObjectPath="\Events\Events\Play_Hack_Denied" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="0.846866" DurationMax="0.846866"/>
+				<Event Id="2267716414" Name="Play_Hack_Succes" ObjectPath="\Events\Events\Play_Hack_Succes" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="0.930431" DurationMax="0.930431"/>
+				<Event Id="3689126666" Name="Play_Jump" ObjectPath="\Events\Events\Play_Jump" DurationType="OneShot" DurationMin="0.423602" DurationMax="0.730128"/>
+				<Event Id="867002421" Name="Play_MeteorHit" ObjectPath="\Events\Events\Play_MeteorHit" DurationType="OneShot" DurationMin="11.221172" DurationMax="15.869133"/>
+				<Event Id="561502880" Name="Play_MeteorVoice" ObjectPath="\Events\Events\Play_MeteorVoice" DurationType="OneShot" DurationMin="2.205628" DurationMax="2.401093"/>
+				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Events\Play_Music" DurationType="Infinite"/>
+				<Event Id="2868217562" Name="Play_ProceedVoice" ObjectPath="\Events\Events\Play_ProceedVoice" DurationType="OneShot" DurationMin="2.092022" DurationMax="2.092022"/>
+				<Event Id="1096525642" Name="Play_Skill_LevelDown" ObjectPath="\Events\Events\Play_Skill_LevelDown" DurationType="OneShot" DurationMin="0.166840" DurationMax="0.166840"/>
+				<Event Id="4192500681" Name="Play_Skill_LevelUp" ObjectPath="\Events\Events\Play_Skill_LevelUp" DurationType="OneShot" DurationMin="0.397813" DurationMax="0.397813"/>
+				<Event Id="456935401" Name="Play_Skill_ManageOpen" ObjectPath="\Events\Events\Play_Skill_ManageOpen" DurationType="OneShot" DurationMin="0.170082" DurationMax="0.170082"/>
+				<Event Id="1444205428" Name="Play_StartGame" ObjectPath="\Events\Events\Play_StartGame" DurationType="OneShot" DurationMin="2.730431" DurationMax="2.730431"/>
+				<Event Id="1426838595" Name="Play_Stunned" ObjectPath="\Events\Events\Play_Stunned" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.000000"/>
+				<Event Id="2044747472" Name="Play_UI" ObjectPath="\Events\Events\Play_UI" DurationType="OneShot" DurationMin="0.024929" DurationMax="0.024929"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="47080099" Language="SFX">
-					<ShortName>MetalCreak.wav</ShortName>
-					<Path>SFX/MetalCreak_E07AB823.wem</Path>
+				<File Id="5751555" Language="SFX">
+					<ShortName>DangerToxicGas.wav</ShortName>
+					<Path>SFX/DangerToxicGas_79806F73.wem</Path>
 				</File>
-				<File Id="62939157" Language="SFX">
-					<ShortName>Hack_Denied.wav</ShortName>
-					<Path>SFX/Hack_Denied_10C4C929.wem</Path>
-				</File>
-				<File Id="65311760" Language="SFX">
-					<ShortName>Goggles.wav</ShortName>
-					<Path>SFX/Goggles_10C4C929.wem</Path>
-				</File>
-				<File Id="66056746" Language="SFX">
-					<ShortName>Hull_Hit.wav</ShortName>
-					<Path>SFX/Hull_Hit_A5BE4E21.wem</Path>
-				</File>
-				<File Id="79385771" Language="SFX">
-					<ShortName>Doors_1.wav</ShortName>
-					<Path>SFX/Doors_1_A12BE507.wem</Path>
-				</File>
-				<File Id="106757732" Language="SFX">
-					<ShortName>Music_Intro.wav</ShortName>
-					<Path>SFX/Music_Intro_D79FB2B7.wem</Path>
-				</File>
-				<File Id="110789462" Language="SFX">
-					<ShortName>Electric_Woosh.wav</ShortName>
-					<Path>SFX/Electric_Woosh_10C4C929.wem</Path>
-				</File>
-				<File Id="163831784" Language="SFX">
-					<ShortName>Chill_Music.wav</ShortName>
-					<Path>SFX/Chill_Music_D79FB2B7.wem</Path>
-				</File>
-				<File Id="204463098" Language="SFX">
-					<ShortName>BearSounds.wav</ShortName>
-					<Path>SFX/BearSounds_B3EBFC1B.wem</Path>
-				</File>
-				<File Id="209029818" Language="SFX">
-					<ShortName>Heavy_Impact_Dist.wav</ShortName>
-					<Path>SFX/Heavy_Impact_Dist_06FB6750.wem</Path>
-				</File>
-				<File Id="233259537" Language="SFX">
-					<ShortName>AcquireSkill.wav</ShortName>
-					<Path>SFX/AcquireSkill_10C4C929.wem</Path>
-				</File>
-				<File Id="263520904" Language="SFX">
-					<ShortName>Music_Part5.wav</ShortName>
-					<Path>SFX/Music_Part5_D79FB2B7.wem</Path>
-				</File>
-				<File Id="303203819" Language="SFX">
-					<ShortName>Doors_1.wav</ShortName>
-					<Path>SFX/Doors_1_53A0AF92.wem</Path>
-				</File>
-				<File Id="306520117" Language="SFX">
-					<ShortName>BearSounds.wav</ShortName>
-					<Path>SFX/BearSounds_426E19A9.wem</Path>
-				</File>
-				<File Id="306770994" Language="SFX">
-					<ShortName>YouWonMusic.wav</ShortName>
-					<Path>SFX/YouWonMusic_D79FB2B7.wem</Path>
-				</File>
-				<File Id="363119522" Language="SFX">
-					<ShortName>Stunned.wav</ShortName>
-					<Path>SFX/Stunned_10C4C929.wem</Path>
-				</File>
-				<File Id="381562044" Language="SFX">
-					<ShortName>UI_2.wav</ShortName>
-					<Path>SFX/UI_2_9862C16A.wem</Path>
-				</File>
-				<File Id="387458280" Language="SFX">
-					<ShortName>BearSounds.wav</ShortName>
-					<Path>SFX/BearSounds_991B9DD9.wem</Path>
-				</File>
-				<File Id="387759116" Language="SFX">
-					<ShortName>DeathHit.wav</ShortName>
-					<Path>SFX/DeathHit_10C4C929.wem</Path>
-				</File>
-				<File Id="410426984" Language="SFX">
+				<File Id="14273555" Language="SFX">
 					<ShortName>Music_Part4.wav</ShortName>
-					<Path>SFX/Music_Part4_D79FB2B7.wem</Path>
+					<Path>SFX/Music_Part4_9B96ECC7.wem</Path>
 				</File>
-				<File Id="450680982" Language="SFX">
-					<ShortName>Doors_2.wav</ShortName>
-					<Path>SFX/Doors_2_195D125D.wem</Path>
+				<File Id="16550735" Language="SFX">
+					<ShortName>ProceedtoTerminal.wav</ShortName>
+					<Path>SFX/ProceedtoTerminal_A8BE4983.wem</Path>
 				</File>
-				<File Id="456124792" Language="SFX">
+				<File Id="17706404" Language="SFX">
+					<ShortName>Electric_Woosh.wav</ShortName>
+					<Path>SFX/Electric_Woosh_6296B0F9.wem</Path>
+				</File>
+				<File Id="24404833" Language="SFX">
+					<ShortName>ArtGravDisabled.wav</ShortName>
+					<Path>SFX/ArtGravDisabled_3977A7AE.wem</Path>
+				</File>
+				<File Id="41057192" Language="SFX">
+					<ShortName>Music_Part5.wav</ShortName>
+					<Path>SFX/Music_Part5_9B96ECC7.wem</Path>
+				</File>
+				<File Id="83888322" Language="SFX">
+					<ShortName>AcquireSkill.wav</ShortName>
+					<Path>SFX/AcquireSkill_6296B0F9.wem</Path>
+				</File>
+				<File Id="112574700" Language="SFX">
+					<ShortName>YouWonMusic.wav</ShortName>
+					<Path>SFX/YouWonMusic_9B96ECC7.wem</Path>
+				</File>
+				<File Id="137771650" Language="SFX">
+					<ShortName>ProceedtoEscapePod.wav</ShortName>
+					<Path>SFX/ProceedtoEscapePod_E008F555.wem</Path>
+				</File>
+				<File Id="158002075" Language="SFX">
+					<ShortName>BearSounds.wav</ShortName>
+					<Path>SFX/BearSounds_FFC4123D.wem</Path>
+				</File>
+				<File Id="165007158" Language="SFX">
+					<ShortName>Heavy_Impact_Dist.wav</ShortName>
+					<Path>SFX/Heavy_Impact_Dist_C74F7615.wem</Path>
+				</File>
+				<File Id="183855778" Language="SFX">
+					<ShortName>BearSounds.wav</ShortName>
+					<Path>SFX/BearSounds_02AC9562.wem</Path>
+				</File>
+				<File Id="185787310" Language="SFX">
+					<ShortName>BearSounds.wav</ShortName>
+					<Path>SFX/BearSounds_00980009.wem</Path>
+				</File>
+				<File Id="198894358" Language="SFX">
+					<ShortName>BearSounds.wav</ShortName>
+					<Path>SFX/BearSounds_B706A30C.wem</Path>
+				</File>
+				<File Id="232866770" Language="SFX">
 					<ShortName>Metal_Impact.wav</ShortName>
-					<Path>SFX/Metal_Impact_D00C2E19.wem</Path>
+					<Path>SFX/Metal_Impact_4C93C917.wem</Path>
 				</File>
-				<File Id="501669268" Language="SFX">
+				<File Id="234242146" Language="SFX">
+					<ShortName>Chill_Music.wav</ShortName>
+					<Path>SFX/Chill_Music_9B96ECC7.wem</Path>
+				</File>
+				<File Id="246155340" Language="SFX">
+					<ShortName>Music_Intro.wav</ShortName>
+					<Path>SFX/Music_Intro_9B96ECC7.wem</Path>
+				</File>
+				<File Id="247890544" Language="SFX">
 					<ShortName>BearSounds.wav</ShortName>
-					<Path>SFX/BearSounds_6B5719A9.wem</Path>
+					<Path>SFX/BearSounds_EE330485.wem</Path>
 				</File>
-				<File Id="509116132" Language="SFX">
-					<ShortName>BearSounds.wav</ShortName>
-					<Path>SFX/BearSounds_4A6A02A6.wem</Path>
-				</File>
-				<File Id="515717826" Language="SFX">
-					<ShortName>Heavy_Impact_Dist.wav</ShortName>
-					<Path>SFX/Heavy_Impact_Dist_80A60739.wem</Path>
-				</File>
-				<File Id="516378856" Language="SFX">
-					<ShortName>Doors_3.wav</ShortName>
-					<Path>SFX/Doors_3_719F382C.wem</Path>
-				</File>
-				<File Id="548832763" Language="SFX">
+				<File Id="289453342" Language="SFX">
 					<ShortName>Hacking_Succes.wav</ShortName>
-					<Path>SFX/Hacking_Succes_10C4C929.wem</Path>
+					<Path>SFX/Hacking_Succes_6296B0F9.wem</Path>
 				</File>
-				<File Id="564204432" Language="SFX">
-					<ShortName>Hull_Hit.wav</ShortName>
-					<Path>SFX/Hull_Hit_B0B74266.wem</Path>
-				</File>
-				<File Id="620641373" Language="SFX">
-					<ShortName>Heavy_Impact_Dist.wav</ShortName>
-					<Path>SFX/Heavy_Impact_Dist_30E210E3.wem</Path>
-				</File>
-				<File Id="640913818" Language="SFX">
-					<ShortName>Skill_LevelDown.wav</ShortName>
-					<Path>SFX/Skill_LevelDown_10C4C929.wem</Path>
-				</File>
-				<File Id="671882969" Language="SFX">
-					<ShortName>MetalCreak.wav</ShortName>
-					<Path>SFX/MetalCreak_EAA8206A.wem</Path>
-				</File>
-				<File Id="815399842" Language="SFX">
-					<ShortName>MetalCreak.wav</ShortName>
-					<Path>SFX/MetalCreak_BA2C8A3F.wem</Path>
-				</File>
-				<File Id="861047025" Language="SFX">
-					<ShortName>OpenSkills.wav</ShortName>
-					<Path>SFX/OpenSkills_3D5B7243.wem</Path>
-				</File>
-				<File Id="880433878" Language="SFX">
-					<ShortName>Hull_Hit.wav</ShortName>
-					<Path>SFX/Hull_Hit_60FD2F7C.wem</Path>
-				</File>
-				<File Id="913329014" Language="SFX">
-					<ShortName>Goggles.wav</ShortName>
-					<Path>SFX/Goggles_8C7D2D51.wem</Path>
-				</File>
-				<File Id="914601873" Language="SFX">
-					<ShortName>MetalCreak.wav</ShortName>
-					<Path>SFX/MetalCreak_65261A21.wem</Path>
-				</File>
-				<File Id="924386258" Language="SFX">
-					<ShortName>Jump.wav</ShortName>
-					<Path>SFX/Jump_41CC74DF.wem</Path>
-				</File>
-				<File Id="926329877" Language="SFX">
-					<ShortName>Music_Part3.wav</ShortName>
-					<Path>SFX/Music_Part3_D79FB2B7.wem</Path>
-				</File>
-				<File Id="938252191" Language="SFX">
-					<ShortName>BearSounds.wav</ShortName>
-					<Path>SFX/BearSounds_8727E4CA.wem</Path>
-				</File>
-				<File Id="959076171" Language="SFX">
-					<ShortName>Doors_2.wav</ShortName>
-					<Path>SFX/Doors_2_BDA7AA1C.wem</Path>
-				</File>
-				<File Id="972219134" Language="SFX">
-					<ShortName>YouDiedMusic.wav</ShortName>
-					<Path>SFX/YouDiedMusic_D79FB2B7.wem</Path>
-				</File>
-				<File Id="1002360659" Language="SFX">
-					<ShortName>Music_Part2.wav</ShortName>
-					<Path>SFX/Music_Part2_D79FB2B7.wem</Path>
-				</File>
-				<File Id="1016493268" Language="SFX">
+				<File Id="311768504" Language="SFX">
 					<ShortName>Music_Part1.wav</ShortName>
-					<Path>SFX/Music_Part1_D79FB2B7.wem</Path>
+					<Path>SFX/Music_Part1_9B96ECC7.wem</Path>
 				</File>
-				<File Id="1061452356" Language="SFX">
-					<ShortName>Doors_3.wav</ShortName>
-					<Path>SFX/Doors_3_2A276314.wem</Path>
-				</File>
-				<File Id="1066848774" Language="SFX">
+				<File Id="351747193" Language="SFX">
 					<ShortName>BearSounds.wav</ShortName>
-					<Path>SFX/BearSounds_9AEF8868.wem</Path>
+					<Path>SFX/BearSounds_BC208623.wem</Path>
+				</File>
+				<File Id="387416137" Language="SFX">
+					<ShortName>BearSounds.wav</ShortName>
+					<Path>SFX/BearSounds_9CB926D5.wem</Path>
+				</File>
+				<File Id="393275151" Language="SFX">
+					<ShortName>ArtGravActivated.wav</ShortName>
+					<Path>SFX/ArtGravActivated_5BC3F30B.wem</Path>
+				</File>
+				<File Id="394473718" Language="SFX">
+					<ShortName>OpenSkills.wav</ShortName>
+					<Path>SFX/OpenSkills_6296B0F9.wem</Path>
+				</File>
+				<File Id="394600004" Language="SFX">
+					<ShortName>Doors_3.wav</ShortName>
+					<Path>SFX/Doors_3_C8A57E32.wem</Path>
+				</File>
+				<File Id="425372576" Language="SFX">
+					<ShortName>Skill_LevelDown.wav</ShortName>
+					<Path>SFX/Skill_LevelDown_6296B0F9.wem</Path>
+				</File>
+				<File Id="464014891" Language="SFX">
+					<ShortName>Meteor_2.wav</ShortName>
+					<Path>SFX/Meteor_2_6A0281FC.wem</Path>
+				</File>
+				<File Id="492224224" Language="SFX">
+					<ShortName>BearSounds.wav</ShortName>
+					<Path>SFX/BearSounds_83B9B6A5.wem</Path>
+				</File>
+				<File Id="538589019" Language="SFX">
+					<ShortName>Goggles.wav</ShortName>
+					<Path>SFX/Goggles_40004F5A.wem</Path>
+				</File>
+				<File Id="644206336" Language="SFX">
+					<ShortName>Doors_2.wav</ShortName>
+					<Path>SFX/Doors_2_A271544C.wem</Path>
+				</File>
+				<File Id="675271081" Language="SFX">
+					<ShortName>Stunned.wav</ShortName>
+					<Path>SFX/Stunned_6296B0F9.wem</Path>
+				</File>
+				<File Id="685695728" Language="SFX">
+					<ShortName>Meteor_3.wav</ShortName>
+					<Path>SFX/Meteor_3_3387B55B.wem</Path>
+				</File>
+				<File Id="700986361" Language="SFX">
+					<ShortName>Music_Part2.wav</ShortName>
+					<Path>SFX/Music_Part2_9B96ECC7.wem</Path>
+				</File>
+				<File Id="713445633" Language="SFX">
+					<ShortName>Hack_Denied.wav</ShortName>
+					<Path>SFX/Hack_Denied_6296B0F9.wem</Path>
+				</File>
+				<File Id="718178605" Language="SFX">
+					<ShortName>Meteor_1.wav</ShortName>
+					<Path>SFX/Meteor_1_CB13E23D.wem</Path>
+				</File>
+				<File Id="735858443" Language="SFX">
+					<ShortName>Doors_2.wav</ShortName>
+					<Path>SFX/Doors_2_06E30FD4.wem</Path>
+				</File>
+				<File Id="740393319" Language="SFX">
+					<ShortName>Jump.wav</ShortName>
+					<Path>SFX/Jump_70166163.wem</Path>
+				</File>
+				<File Id="754289797" Language="SFX">
+					<ShortName>Goggles.wav</ShortName>
+					<Path>SFX/Goggles_6C1E4D46.wem</Path>
+				</File>
+				<File Id="771721023" Language="SFX">
+					<ShortName>MetalCreak.wav</ShortName>
+					<Path>SFX/MetalCreak_DEBACD1C.wem</Path>
+				</File>
+				<File Id="855726674" Language="SFX">
+					<ShortName>Doors_1.wav</ShortName>
+					<Path>SFX/Doors_1_7CD15E79.wem</Path>
+				</File>
+				<File Id="866111838" Language="SFX">
+					<ShortName>Music_Part3.wav</ShortName>
+					<Path>SFX/Music_Part3_9B96ECC7.wem</Path>
+				</File>
+				<File Id="909590994" Language="SFX">
+					<ShortName>UI_2.wav</ShortName>
+					<Path>SFX/UI_2_6D97B73F.wem</Path>
+				</File>
+				<File Id="910675417" Language="SFX">
+					<ShortName>Doors_1.wav</ShortName>
+					<Path>SFX/Doors_1_11412C7E.wem</Path>
+				</File>
+				<File Id="923713329" Language="SFX">
+					<ShortName>Heavy_Impact_Dist.wav</ShortName>
+					<Path>SFX/Heavy_Impact_Dist_57A7B09E.wem</Path>
+				</File>
+				<File Id="939552175" Language="SFX">
+					<ShortName>DeathHit.wav</ShortName>
+					<Path>SFX/DeathHit_6296B0F9.wem</Path>
+				</File>
+				<File Id="945750013" Language="SFX">
+					<ShortName>BearSounds.wav</ShortName>
+					<Path>SFX/BearSounds_649974C3.wem</Path>
+				</File>
+				<File Id="971632814" Language="SFX">
+					<ShortName>Doors_3.wav</ShortName>
+					<Path>SFX/Doors_3_689C2B64.wem</Path>
+				</File>
+				<File Id="1013435566" Language="SFX">
+					<ShortName>YouDiedMusic.wav</ShortName>
+					<Path>SFX/YouDiedMusic_9B96ECC7.wem</Path>
+				</File>
+				<File Id="1024100276" Language="SFX">
+					<ShortName>Hull_Hit.wav</ShortName>
+					<Path>SFX/Hull_Hit_25AB465B.wem</Path>
+				</File>
+				<File Id="1046422221" Language="SFX">
+					<ShortName>Heavy_Impact_Dist.wav</ShortName>
+					<Path>SFX/Heavy_Impact_Dist_CBCBEC24.wem</Path>
+				</File>
+				<File Id="1053193434" Language="SFX">
+					<ShortName>BearSounds.wav</ShortName>
+					<Path>SFX/BearSounds_3BC4D575.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
